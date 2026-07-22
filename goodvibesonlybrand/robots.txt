@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://goodvibesonly.com/sitemap.xml
+
+# Crawl-delay (be nice to bots)
+Crawl-delay: 1
+
+# Disallow admin/internal paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Allow important assets
+Allow: /css/
+Allow: /js/
+Allow: /img/
+
+# Google-specific
+User-agent: Googlebot
+Allow: /
+
+# Social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+User-agent: Twitterbot
+Allow: /
+User-agent: LinkedInBot
+Allow: /
